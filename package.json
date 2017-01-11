@@ -1,0 +1,34 @@
+{
+  "name": "prodparser",
+  "version": "0.0.1",
+  "description": "Content parser, which collect information from selected website",
+  "main": "parser.js",
+  "dependencies": {
+    "request": "latest",
+    "cheerio": "0.20.0",
+    "cheerio-eq": "1.0.1",
+    "iconv-lite": "0.4.13",
+    "async": "1.5.2",
+    "xlsx": "0.8.0"
+
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ktsx/prodparser.git"
+  },
+  "keywords": [
+    "parser",
+    "grabber",
+    "products",
+    "xlsx"
+  ],
+  "author": "kaktus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ktsx/prodparser/issues"
+  },
+  "homepage": "https://github.com/ktsx/prodparser#readme"
+}
